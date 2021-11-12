@@ -68,9 +68,37 @@ footer {
     background: white;
     margin: 0 1rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-a {
+.projects__card__links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects__card__links a {
     text-decoration: none;
     color: #0e0e0e;
+    transition: background-position 120ms;
+    background-image: linear-gradient(
+        transparent 0%, 
+        transparent calc(50% - 9px),
+        rgba(255, 164, 161, 0.5) calc(50% - 9px),
+        rgba(255, 164, 161, 0.5) 100%
+    );
+    background-size: 100% 200%;
+    background-position: 0px 0px;
+}
+
+.projects__card__links a:hover {
+    background-image: linear-gradient(
+        transparent 0%, 
+        transparent calc(50% - 9px),
+        rgba(255, 164, 161, 1) calc(50% - 9px),
+        rgba(255, 164, 161, 1) 100%
+    );
+    background-position: center center;
+    color: green;
 }

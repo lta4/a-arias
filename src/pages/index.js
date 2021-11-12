@@ -30,6 +30,16 @@ const IndexPage = () => (
       </div>
       <div className="projects__card">
         <div className="projects__card__description">
+          <h2>First Portfolio</h2>
+          <p>My first Portfolio Project</p>
+        </div>
+        <div className="projects__card__links">
+          <a href="https://github.com/lta4/lta4.github.io.git">Repo</a>
+          <a href="https://andrewarias-portfolio.netlify.app">Project</a>
+        </div>
+      </div>
+      <div className="projects__card">
+        <div className="projects__card__description">
           <h2>PC Builder</h2>
           <p>A group project made to sort and compile your personal computer.</p>
         </div>

@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -26,27 +19,18 @@ const Layout = ({ children }) => {
 
   return (
     <div className="flexThisBox">
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      {/* <div
+      <main>{children}</main>
+      <footer
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          marginTop: `2rem`,
         }}
-      > */}
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          <Footer />
-          © {new Date().getFullYear()}, Built with love by
-          {` `}
-          <a href="">Andrew Arias</a>
-        </footer>
-      </div>
-    // </div>
+      >
+        <Footer />
+        © {new Date().getFullYear()}, Built with love by
+        {` `}
+        <a href="">Andrew Arias</a>
+      </footer>
+    </div>
   )
 }
 

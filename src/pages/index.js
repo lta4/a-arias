@@ -1,6 +1,7 @@
 import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
+// import About from "../components/about"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,20 +9,12 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className="container">
-      <div className="statementContainer">
-        <h1>Hello, I'm Andrew Arias.</h1>
-          <p>Welcome to Andrew's Portfolio.</p>
-          <p>Now go build something great.</p>
+    <header className="header">
+      <div className="header__intro">
+        <h1>Hi, I'm Andrew Arias.</h1>
+          <p>I'm a full-stack developer.</p>
           <button>View my work</button>
-          {/* <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          /> */}
+          {/* <About /> */}
           {/* <p>
             <Link to="/page-2/">Go to page 2</Link> <br />
             <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
@@ -29,7 +22,7 @@ const IndexPage = () => (
             <Link to="/using-dsg">Go to "Using DSG"</Link>
           </p> */}
       </div>
-    </div>
+    </header>
   </Layout>
 )
 

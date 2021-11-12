@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flexThisBox">
       <main>{children}</main>
-      <footer>
+      <footer className="footer">
         <div className="footer__socials">
           <a href="https://github.com/lta4">
             <FaGithubAlt />
@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
             <FaLinkedin />
           </a>
         </div>
-        <div className="footer__attributions">
+        {/* <div className="footer__attributions">
 
-        </div>
+        </div> */}
         © {new Date().getFullYear()}, Built with love by
         {` `}
         <a href="">Andrew Arias</a>

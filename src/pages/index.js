@@ -15,14 +15,34 @@ const IndexPage = () => (
           <p>I'm a full-stack developer.</p>
           <button>View my work</button>
           {/* <About /> */}
-          {/* <p>
-            <Link to="/page-2/">Go to page 2</Link> <br />
-            <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-            <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-            <Link to="/using-dsg">Go to "Using DSG"</Link>
-          </p> */}
       </div>
     </header>
+    <section className="projects">
+      <div className="projects__card">
+        <div>
+          <h2>Anxiety App</h2>
+            <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
+        </div>
+          <a href="https://github.com/lta4/capstone-anxiety-app.git">Repo</a>
+          <a href="https://capstone-anxiety-app.netlify.app">Project</a>
+      </div>
+      <div className="projects__card">
+        <div>
+          <h2>PC Builder</h2>
+            <p>A group project made to sort and compile your personal computer.</p>
+        </div>
+          <a href="https://github.com/MrChaco007/PC-Builder-Front.git">Repo</a>
+          <a href="https://pc-builder.netlify.app">Project</a>
+      </div>
+      <div className="projects__card">
+        <div>
+          <h2>moviFi</h2>
+            <p>An app created to find any movie out there. Descriptions included.</p>
+        </div>
+          <a href="https://movifi.netlify.app">Repo</a>
+          <a href="https://github.com/lta4/moviFi.git">Project</a>
+      </div>
+    </section>
   </Layout>
 )
 

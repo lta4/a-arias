@@ -2,6 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 // import About from "../components/about"
+// import { SiFastly } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -17,6 +18,25 @@ const IndexPage = () => (
           {/* <About /> */}
       </div>
     </header>
+    <section className="about">
+      <div className="about__feature">
+        {/* <img><SiFastly /></img> */}
+        <h2>Fast</h2>
+        <p>Fast load times and lag free interaction, my highest priority.</p>
+      </div>
+      <div className="about__feature">
+        <h2>Intuitive</h2>
+        <p>Strong preference for easy to use, intuitive UX/UI.</p>
+      </div>
+      <div className="about__feature">
+        <h2>Responsive</h2>
+        <p>My layouts will work on any device big or small.</p>
+      </div>
+      <div className="about__feature">
+        <h2>Dynamic</h2>
+        <p>Websites don't have to be static. I love making pages come to life.</p>
+      </div>
+    </section>
     <section className="projects">
       <div className="projects__card">
         <div className="projects__card__description">

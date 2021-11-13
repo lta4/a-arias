@@ -2,7 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 // import About from "../components/about"
-// import { SiFastly } from "react-icons/fa"
+import { FaClock } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -20,7 +20,7 @@ const IndexPage = () => (
     </header>
     <section className="about">
       <div className="about__feature">
-        {/* <img><SiFastly /></img> */}
+        <svg><FaClock /></svg>
         <h2>Fast</h2>
         <p>Fast load times and lag free interaction, my highest priority.</p>
       </div>

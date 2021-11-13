@@ -2,7 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 // import About from "../components/about"
-import { FaClock } from "react-icons/fa"
+// import { FaClock } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -19,22 +19,30 @@ const IndexPage = () => (
       </div>
     </header>
     <section className="about">
-      <div className="about__feature">
-        <svg><FaClock /></svg>
-        <h2>Fast</h2>
-        <p>Fast load times and lag free interaction, my highest priority.</p>
+      <div className="about__card">
+        <div className="about__card__description">
+          {/* <svg><FaClock /></svg> */}
+          <h2>Fast</h2>
+          <p>Fast load times and lag free interaction, my highest priority.</p>
+        </div>
       </div>
-      <div className="about__feature">
-        <h2>Intuitive</h2>
-        <p>Strong preference for easy to use, intuitive UX/UI.</p>
+      <div className="about__card">
+        <div className="about__card__description">
+          <h2>Intuitive</h2>
+          <p>Strong preference for easy to use, intuitive UX/UI.</p>
+        </div>
       </div>
-      <div className="about__feature">
-        <h2>Responsive</h2>
-        <p>My layouts will work on any device big or small.</p>
+      <div className="about__card">
+        <div className="about__card__description">
+          <h2>Responsive</h2>
+          <p>My layouts will work on any device big or small.</p>
+        </div>
       </div>
-      <div className="about__feature">
-        <h2>Dynamic</h2>
-        <p>Websites don't have to be static. I love making pages come to life.</p>
+      <div className="about__card">
+        <div className="about__card__description">
+          <h2>Dynamic</h2>
+          <p>Websites don't have to be static. I love making pages come to life.</p>
+        </div>
       </div>
     </section>
     <section className="projects">

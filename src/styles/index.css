@@ -36,6 +36,7 @@ body {
 
 /*************** CANVAS ***********************/
 
+
 /**************** STATEMENT *******************/
 
 .header {
@@ -55,6 +56,27 @@ body {
 .header__intro h1 {
     text-align: center;
 }
+
+/****************** FEATURES **********************/
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 1rem;
+    background: lightgreen;
+}
+
+.about__card {
+    width: 33.3%;
+    background: white;
+    margin: 0 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/****************** PROJECTS ***********************/
 
 .projects {
     display: flex;
@@ -131,6 +153,16 @@ body {
 } */
 
 @media screen and (max-width: 768px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about__card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
     .projects {
         flex-direction: column;
     }

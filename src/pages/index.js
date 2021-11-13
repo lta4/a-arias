@@ -2,7 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 // import About from "../components/about"
-// import { FaClock } from "react-icons/fa"
+import { FaClock } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -20,8 +20,11 @@ const IndexPage = () => (
     </header>
     <section className="about">
       <div className="about__card">
+        <div className="about__card__svg">
+        {/* viewBox="10 0 100 20" height="10em" width="65em" */}
+          <svg className="faClock"><FaClock size={30} /></svg>
+        </div>
         <div className="about__card__description">
-          {/* <svg><FaClock /></svg> */}
           <h2>Fast</h2>
           <p>Fast load times and lag free interaction, my highest priority.</p>
         </div>

@@ -22,7 +22,7 @@ const IndexPage = () => (
       <div className="about__card">
         <div className="about__card__svg">
         {/* viewBox="10 0 100 20" height="10em" width="65em" */}
-          <svg className="faClock"><FaClock size={30} /></svg>
+          <svg className="faClock"><FaClock size={100} /></svg>
         </div>
         <div className="about__card__description">
           <h2>Fast</h2>

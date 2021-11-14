@@ -21,8 +21,7 @@ const IndexPage = () => (
     <section className="about">
       <div className="about__card">
         <div className="about__card__svg">
-        {/* viewBox="10 0 100 20" height="10em" width="65em" */}
-          <svg className="faClock"><FaClock size={100} /></svg>
+          <svg className="faClock"><FaClock size={100} className="clock"/></svg>
         </div>
         <div className="about__card__description">
           <h2>Fast</h2>

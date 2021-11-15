@@ -90,11 +90,11 @@ body {
     color: red;
 }
 
-/* .about__profile {
+.about__profile {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-} */
+}
 
 /****************** PROJECTS ***********************/
 

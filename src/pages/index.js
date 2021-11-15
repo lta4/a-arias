@@ -46,16 +46,16 @@ const IndexPage = () => (
           <p>Websites don't have to be static. I love making pages come to life.</p>
         </div>
       </div>
-      <div className="about__profile">
-        <div className="about__profile__image">
+      <div className="profile">
+        <div className="profile__image">
           {/* <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" /> */}
-          <div className="about__profile__description">
+          <div className="profile__description">
             <h2>I am Andrew Arias</h2>
             <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
             I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
             Let's make something special.</p>
           </div>
-          <div className="about__profile__stats">
+          <div className="profile__stats">
             <div></div>
             <div></div>
             <div></div>

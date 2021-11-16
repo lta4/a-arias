@@ -47,8 +47,8 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section>
-      <div className="profile">
+    <section className="profile">
+      <div className="profile__set">
         <div className="profile__image">
           {/* <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" /> */}
           <div className="profile__description">

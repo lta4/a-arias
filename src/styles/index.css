@@ -92,8 +92,16 @@ body {
 
 .profile {
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
+    padding: 2rem 1rem;
+    background: steelblue;
+}
+
+.profile__set {
+    width: 97.5%;
+    background: white;
+    margin: 0 1rem;
+    padding: 2rem;
 }
 
 /****************** PROJECTS ***********************/

@@ -90,9 +90,9 @@ body {
     color: red;
 }
 
-.about__profile {
+.profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -181,6 +181,10 @@ body {
     .about__card {
         width: 100%;
         margin: 1rem 0;
+    }
+
+    .about__profile {
+        flex-direction: column;
     }
 
     .projects {

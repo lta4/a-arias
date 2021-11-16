@@ -46,6 +46,8 @@ const IndexPage = () => (
           <p>Websites don't have to be static. I love making pages come to life.</p>
         </div>
       </div>
+    </section>
+    <section>
       <div className="profile">
         <div className="profile__image">
           {/* <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" /> */}

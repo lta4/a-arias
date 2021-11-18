@@ -91,17 +91,25 @@ body {
 }
 
 .profile {
-    display: flex;
-    justify-content: space-evenly;
     padding: 2rem 1rem;
     background: steelblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .profile__set {
-    width: 97.5%;
+    width: 50%;
     background: white;
     margin: 0 1rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile__set__description {
+
 }
 
 /****************** PROJECTS ***********************/

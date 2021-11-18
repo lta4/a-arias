@@ -49,28 +49,23 @@ const IndexPage = () => (
     </section>
     <section className="profile">
       <div className="profile__set">
-        <div className="profile__set__image">
-          <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" height="500px" alt="Profile of one's self"/>
+        <div className="">
+          <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="500px" />
           <div className="profile__set__description">
             <h2>I am Andrew Arias</h2>
             <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
             I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
             Let's make something special.</p>
           </div>
-          <div className="profile__stats">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
         </div>
       </div>
+        <div className="profile__set">
+          <div className="profile__set__description">
+            <div>
+              <h1>Hello column 2</h1>
+            </div>
+          </div>
+        </div>
     </section>
     <section className="projects">
       <div className="projects__card">

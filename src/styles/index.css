@@ -90,26 +90,23 @@ body {
     color: red;
 }
 
+/******************* PROFILE *******************/
+
 .profile {
+    display: flex;
+    justify-content: space-evenly;
     padding: 2rem 1rem;
     background: steelblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 .profile__set {
-    width: 50%;
+    width: 33.3%;
     background: white;
     margin: 0 1rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.profile__set__description {
-
+    justify-content: space-between;
 }
 
 /****************** PROJECTS ***********************/
@@ -200,6 +197,10 @@ body {
     }
 
     .about__profile {
+        flex-direction: column;
+    }
+
+    .profile {
         flex-direction: column;
     }
 

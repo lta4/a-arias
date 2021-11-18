@@ -53,6 +53,7 @@ const IndexPage = () => (
           {/* <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" /> */}
           <div className="profile__description">
             <h2>I am Andrew Arias</h2>
+            <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" height="500px"/>
             <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
             I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
             Let's make something special.</p>

@@ -59,13 +59,13 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-        <div className="profile__set">
-          <div className="profile__set__description">
-            <div>
-              <h1>Hello column 2</h1>
-            </div>
+      <div className="profile__set">
+        <div className="profile__set__description">
+          <div>
+            <h1>Hello column 2</h1>
           </div>
         </div>
+      </div>
     </section>
     <section className="projects">
       <div className="projects__card">

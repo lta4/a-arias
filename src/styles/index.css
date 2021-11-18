@@ -100,7 +100,7 @@ body {
 }
 
 .profile__set {
-    width: 33.3%;
+    width: 50%;
     background: white;
     margin: 0 1rem;
     padding: 2rem;
@@ -202,6 +202,11 @@ body {
 
     .profile {
         flex-direction: column;
+    }
+
+    .profile__set {
+        width: 100%;
+        margin: 1rem 0;
     }
 
     .projects {

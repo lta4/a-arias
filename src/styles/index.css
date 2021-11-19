@@ -56,7 +56,7 @@ body {
     align-items: center;
 }
 
-.header__intro h1, p {
+.header__intro h1, h2, p {
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .about__card {
-    width: 10%;
+    width: 33.3%;
     background: white;
     margin: 0 1rem;
     padding: 2rem;

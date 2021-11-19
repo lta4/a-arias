@@ -40,7 +40,7 @@ body {
 /**************** STATEMENT *******************/
 
 .header {
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ body {
 }
 
 .about__card {
-    width: 33.3%;
+    width: 10%;
     background: white;
     margin: 0 1rem;
     padding: 2rem;

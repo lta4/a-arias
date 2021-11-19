@@ -115,8 +115,13 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 1rem;
-    background: #0e0e0e;
+    background: orange;
 }
+
+/* .projects__header {
+    display: flex;
+    justify-content: center;
+} */
 
 .projects__card {
     width: 33.3%;
@@ -183,6 +188,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+/* @media screen and (min-width: 769px) {
+    .projects__header {
+        flex-direction: row;
+    }
 } */
 
 @media screen and (max-width: 768px) {

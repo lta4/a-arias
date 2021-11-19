@@ -68,6 +68,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="projects">
+      <div className="projects__header">I am the PROJECT LORD</div>
       <div className="projects__card">
         <div className="projects__card__description">
           <h2>Anxiety App</h2>

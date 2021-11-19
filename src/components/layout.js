@@ -23,13 +23,13 @@ const Layout = ({ children }) => {
       <footer className="footer">
         <div className="footer__socials">
           <a href="https://github.com/lta4">
-            <FaGithubAlt />
+            <FaGithubAlt size={40}/>
           </a>
           <a href="mailto:andrew4ld@gmail.com">
-            <FaEnvelope />
+            <FaEnvelope size={40}/>
           </a>
           <a href="https://linkedin.com/in/andrewarias4">
-            <FaLinkedin />
+            <FaLinkedin size={40}/>
           </a>
         </div>
         {/* <div className="footer__attributions">

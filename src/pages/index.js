@@ -14,15 +14,15 @@ const IndexPage = () => (
       <div className="header__intro">
         <h1>Hi, I'm Andrew Arias.</h1>
           <p>I'm a full-stack developer.</p>
-          <button>View my work</button>
+          <button className="head__butt">View my work</button>
           {/* <About /> */}
       </div>
     </header>
     <section className="about">
       <div className="about__card">
-        <div className="about__card__svg">
+        {/* <div className="about__card__svg">
           <svg className="faClock"><FaClock size={100} className="clock"/></svg>
-        </div>
+        </div> */}
         <div className="about__card__description">
           <h2>Fast</h2>
           <p>Fast load times and lag free interaction, my highest priority.</p>

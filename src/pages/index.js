@@ -68,7 +68,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="projects">
-      <div className="projects__header">I am the PROJECT LORD</div>
+      <div className="projects__header">PROJECT LORD</div>
       <div className="projects__card">
         <div className="projects__card__description">
           <h2>Anxiety App</h2>
@@ -110,8 +110,8 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section>
-      <div className="form">
+    <section className="contact">
+      <div className="form">Contact
         <form method="post" action="#">
           <label>
             Name

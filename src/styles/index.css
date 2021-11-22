@@ -168,12 +168,14 @@ body {
 /******************** FORM ******************/
 
 .contact {
-    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 1rem;
 }
 
-.form {
+.contact__form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /*************** FOOTER ********************/
@@ -208,6 +210,10 @@ body {
 /****************** MEDIA ******************************/
 
 @media screen and (max-width: 320px) {
+
+    /* .contact {
+        flex-direction: column;
+    } */
 
     .projects__header {
         display: flex;

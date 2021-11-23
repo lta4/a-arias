@@ -112,6 +112,11 @@ body {
     justify-content: space-between;
 }
 
+.profile__set__image {
+    display: flex;
+    flex-direction: column;
+}
+
 /****************** PROJECTS ***********************/
 
 .projects {
@@ -123,6 +128,7 @@ body {
 
 .projects__header {
     display: flex;
+    /* flex-direction: column; */
 }
 
 .projects__card {
@@ -216,11 +222,11 @@ body {
         flex-direction: column;
     } */
 
-    .projects__header {
+    /* .projects__header {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
+    } */
 
     /* .form {
         display: flex;

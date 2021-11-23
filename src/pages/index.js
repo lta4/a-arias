@@ -49,7 +49,7 @@ const IndexPage = () => (
     </section>
     <section className="profile">
       <div className="profile__set">
-        <div className="">
+        <div className="profile__set__image">
           <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="500px" />
           <div className="profile__set__description">
             <h2>I am Andrew Arias</h2>
@@ -68,7 +68,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="projects">
-      <div className="projects__header">PROJECT LORD</div>
+      <div className="projects__header">PROJECT LORD
       <div className="projects__card">
         <div className="projects__card__description">
           <h2>Anxiety App</h2>
@@ -108,6 +108,7 @@ const IndexPage = () => (
           <a href="https://movifi.netlify.app">Repo</a>
           <a href="https://github.com/lta4/moviFi.git">Project</a>
         </div>
+      </div>
       </div>
     </section>
     <section className="contact">

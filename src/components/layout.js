@@ -36,8 +36,7 @@ const Layout = ({ children }) => {
 
         </div> */}
         © {new Date().getFullYear()}, Built with love by
-        {` `}
-        <a href="">Andrew Arias</a>
+        {` Andrew Arias`}
       </footer>
     </div>
   )

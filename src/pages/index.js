@@ -111,21 +111,33 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="contact">
-      <form method="post" action="#" className="contact__form">
-        <label>
-          <input type="text" name="name" id="name" placeholder="Name" />
-        </label>
-        <label>
-          <input type="email" name="email" id="email" placeholder="Email" />
-        </label>
-        <label>
-          <input type="text" name="subject" id="subject" placeholder="Subject" />
-        </label>
-        <label>
-          <textarea name="message" id="message" rows="5" placeholder="Message" />
-        </label>
-          <button type="submit">Send</button>
-          <input type="reset" value="Clear" />
+      <form method="post" action="#"      className="contact__form">
+        <input 
+          type="text" 
+          name="name" 
+          id="name" 
+          placeholder="Name" 
+        />
+        <input 
+          type="email" 
+          name="email" 
+          id="email" 
+          placeholder="Email" 
+        />
+        <input 
+          type="text" 
+          name="subject" 
+          id="subject" 
+          placeholder="Subject" 
+        />
+        <textarea 
+          name="message" 
+          id="message" 
+          rows="5" 
+          placeholder="Message" 
+        />
+        <button type="submit">Send</button>
+        <input type="reset" value="Clear" />
       </form>
     </section>
   </Layout>

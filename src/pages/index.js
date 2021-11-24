@@ -68,7 +68,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="projects">
-      <div className="projects__header">PROJECT LORD
+      <div className="projects__header">PROJECT LORD</div>
       <div className="projects__card">
         <div className="projects__card__description">
           <h2>Anxiety App</h2>
@@ -108,7 +108,6 @@ const IndexPage = () => (
           <a href="https://movifi.netlify.app">Repo</a>
           <a href="https://github.com/lta4/moviFi.git">Project</a>
         </div>
-      </div>
       </div>
     </section>
     <section className="contact">

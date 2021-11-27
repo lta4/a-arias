@@ -112,6 +112,7 @@ const IndexPage = () => (
     </section>
     <section className="contact">
       <form method="post" action="#" className="contact__form">
+        <h2 className="contact__form__header">Contact</h2>
         <input 
           type="text" 
           name="name" 

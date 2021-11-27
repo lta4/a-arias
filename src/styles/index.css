@@ -117,6 +117,10 @@ body {
     flex-direction: column;
 }
 
+.profile__set__image img {
+    object-fit: contain;
+}
+
 /****************** PROJECTS ***********************/
 
 .projects {

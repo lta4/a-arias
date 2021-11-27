@@ -223,6 +223,10 @@ textarea {
     align-items: center;
 } */
 
+.footer__caption {
+    padding-top: 10px;
+}
+
 /****************** MEDIA ******************************/
 
 @media screen and (max-width: 320px) {

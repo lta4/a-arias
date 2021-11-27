@@ -71,6 +71,7 @@ const IndexPage = () => (
       {/* <div className="projects__header">PROJECT LORD</div> */}
       <div className="projects__card">
         <div className="projects__card__description">
+          <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" height="200px" width="300px" className="projects__card__image"></img>
           <h2>Anxiety App</h2>
           <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
         </div>
@@ -105,8 +106,8 @@ const IndexPage = () => (
           <p>An app created to find any movie out there. Descriptions included.</p>
         </div>
         <div className="projects__card__links">
-          <a href="https://movifi.netlify.app">Repo</a>
-          <a href="https://github.com/lta4/moviFi.git">Project</a>
+          <a href="https://github.com/lta4/moviFi.git">Repo</a>
+          <a href="https://movifi.netlify.app">Project</a>
         </div>
       </div>
     </section>

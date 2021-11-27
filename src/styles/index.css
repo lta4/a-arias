@@ -145,6 +145,10 @@ body {
     justify-content: space-between;
 }
 
+.projects__card__image img {
+    object-fit: contain;
+}
+
 .projects__card__links {
     display: flex;
     justify-content: space-around;

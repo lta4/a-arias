@@ -84,9 +84,11 @@ const IndexPage = () => (
       </div>
       <div className="projects__card">
         <div className="projects__card__description">
-          <img src="https://media-exp1.licdn.com/dms/image/C562DAQENzFepchaf-g/profile-treasury-image-shrink_1280_1280/0/1616004190270?e=1638259200&v=beta&t=HHgzluDlABmDZIxaLP6vrYff35RTOfEhMX6fCbQ8GIM" height="200px" width="300px" className="projects__card__image" />
-          <h2>First Portfolio</h2>
-          <p>My first Portfolio Project</p>
+          <div className="projects__card__image">
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQENzFepchaf-g/profile-treasury-image-shrink_1280_1280/0/1616004190270?e=1638259200&v=beta&t=HHgzluDlABmDZIxaLP6vrYff35RTOfEhMX6fCbQ8GIM" height="200px" width="300px" className="projects__card__image" />
+            <h2>First Portfolio</h2>
+            <p>My first Portfolio Project</p>
+          </div>
         </div>
         <div className="projects__card__links">
           <a href="https://github.com/lta4/lta4.github.io.git">Repo</a>
@@ -95,9 +97,11 @@ const IndexPage = () => (
       </div>
       <div className="projects__card">
         <div className="projects__card__description">
-          <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" height="200px" width="300px" className="projects__card__image"/>
-          <h2>PC Builder</h2>
-          <p>A group project made to sort and compile your personal computer.</p>
+          <div className="projects__card__image">
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" height="200px" width="300px" className="projects__card__image"/>
+            <h2>PC Builder</h2>
+            <p>A group project made to sort and compile your personal computer.</p>
+          </div>
         </div>
         <div className="projects__card__links">
           <a href="https://github.com/MrChaco007/PC-Builder-Front.git">Repo</a>
@@ -106,8 +110,10 @@ const IndexPage = () => (
       </div>
       <div className="projects__card">
         <div className="projects__card__description">
-          <h2>moviFi</h2>
-          <p>An app created to find any movie out there. Descriptions included.</p>
+          <div className="projects__card__image">
+            <h2>moviFi</h2>
+            <p>An app created to find any movie out there. Descriptions included.</p>
+          </div>
         </div>
         <div className="projects__card__links">
           <a href="https://github.com/lta4/moviFi.git">Repo</a>
@@ -120,21 +126,21 @@ const IndexPage = () => (
         <h2 className="contact__form__header">Contact</h2>
         <input 
           type="text" 
-          name="name" 
+          name="first name" 
           id="name" 
-          placeholder="Name" 
+          placeholder="First Name" 
+        />
+        <input 
+          type="text"
+          name="last name"
+          id="name"
+          placeholder="Last Name"
         />
         <input 
           type="email" 
           name="email" 
           id="email" 
           placeholder="Email" 
-        />
-        <input 
-          type="text" 
-          name="subject" 
-          id="subject" 
-          placeholder="Subject" 
         />
         <textarea 
           name="message" 
@@ -143,7 +149,7 @@ const IndexPage = () => (
           placeholder="Message" 
         />
         <button type="submit">Send</button>
-        <input type="reset" value="Clear" />
+        {/* <input type="reset" value="Clear" /> */}
       </form>
     </section>
   </Layout>

@@ -50,7 +50,7 @@ const IndexPage = () => (
     <section className="profile">
       <div className="profile__set">
         <div className="profile__set__image">
-          <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="500px" />
+          <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="350px" />
           <div className="profile__set__description">
             <h2>I am Andrew Arias</h2>
             <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
@@ -71,9 +71,11 @@ const IndexPage = () => (
       {/* <div className="projects__header">PROJECT LORD</div> */}
       <div className="projects__card">
         <div className="projects__card__description">
-          <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" height="200px" width="300px" className="projects__card__image" />
-          <h2>Anxiety App</h2>
-          <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
+          <div className="projects__card__image">
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" height="200px" width="300px"  />
+            <h2>Anxiety App</h2>
+            <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
+          </div>
         </div>
         <div className="projects__card__links">
           <a href="https://github.com/lta4/capstone-anxiety-app.git">Repo</a>

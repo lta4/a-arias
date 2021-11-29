@@ -145,6 +145,12 @@ body {
     justify-content: space-between;
 }
 
+.projects__card__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .projects__card__image img {
     object-fit: contain;
 }

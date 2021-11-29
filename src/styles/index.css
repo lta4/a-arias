@@ -231,6 +231,10 @@ textarea {
     width: 25%;
 }
 
+.footer__socials a:hover {
+    color: red;
+}
+
 /* .footer__attributions {
     display: flex;
     flex-direction: column;

@@ -112,7 +112,7 @@ const IndexPage = () => (
         <div className="projects__card__description">
           <div className="projects__card__image">
             <h2>moviFi</h2>
-            <p>An app created to find any movie out there. Descriptions included.</p>
+            <p>An app created to find any movie out there. Descriptions included. The best way to find movies!</p>
           </div>
         </div>
         <div className="projects__card__links">

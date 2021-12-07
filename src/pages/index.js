@@ -72,7 +72,7 @@ const IndexPage = () => (
       <div className="projects__card">
         <div className="projects__card__description">
           <div className="projects__card__image">
-            <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" max-width="100%"/>
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" alt="Anxiety App HomePage" max-width="100%"/>
             <h2>Anxiety App</h2>
             <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
           </div>
@@ -85,7 +85,7 @@ const IndexPage = () => (
       <div className="projects__card">
         <div className="projects__card__description">
           <div className="projects__card__image">
-            <img src="https://media-exp1.licdn.com/dms/image/C562DAQENzFepchaf-g/profile-treasury-image-shrink_1280_1280/0/1616004190270?e=1638259200&v=beta&t=HHgzluDlABmDZIxaLP6vrYff35RTOfEhMX6fCbQ8GIM" max-width="100%" />
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQENzFepchaf-g/profile-treasury-image-shrink_1280_1280/0/1616004190270?e=1638259200&v=beta&t=HHgzluDlABmDZIxaLP6vrYff35RTOfEhMX6fCbQ8GIM" alt="First Porfolio" max-width="100%" />
             <h2>First Portfolio</h2>
             <p>My first Portfolio Project</p>
           </div>
@@ -98,7 +98,7 @@ const IndexPage = () => (
       <div className="projects__card">
         <div className="projects__card__description">
           <div className="projects__card__image">
-            <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" max-width="100%" />
+            <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" alt="PC Builder Project" max-width="100%" />
             <h2>PC Builder</h2>
             <p>A group project made to sort and compile your personal computer.</p>
           </div>

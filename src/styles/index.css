@@ -188,8 +188,10 @@ body {
 /******************** FORM ******************/
 
 .contact {
+    min-height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 2rem 1rem;
 }
 
@@ -197,7 +199,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 input[type="text"],

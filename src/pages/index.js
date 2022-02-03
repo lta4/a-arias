@@ -57,9 +57,9 @@ const IndexPage = () => (
           <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="350px" />
           <div className="profile__set__description">
             <h2>I am Andrew Arias</h2>
-            <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
-            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-            Let's make something special.</p>
+            <p>I'm a Front-End Developer in San Diego, CA.
+            I have serious passion for developing, animations, and creating intuitive, dynamic user experiences.</p>
+            <p>Let's make something special!</p>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ const IndexPage = () => (
           <div className="projects__card__image">
             <img src="https://media-exp1.licdn.com/dms/image/C562DAQH_tHwiR0hmCg/profile-treasury-image-shrink_800_800/0/1615884033329?e=1638129600&v=beta&t=qHrcgMfd7rsxPDsxyRyL5JSSP2nfgS-bNzIH0f0mbxc" alt="Anxiety App HomePage" max-width="100%"/>
             <h2>Anxiety App</h2>
-            <p>My final Capstone Project. An app built to help anyone who has anxiety.</p>
+            <p>My final Capstone Project for General Assembly. An app built to help anyone who has or suffers from anxiety.</p>
           </div>
         </div>
         <div className="projects__card__links">
@@ -91,7 +91,7 @@ const IndexPage = () => (
           <div className="projects__card__image">
             <img src="https://media-exp1.licdn.com/dms/image/C562DAQENzFepchaf-g/profile-treasury-image-shrink_1280_1280/0/1616004190270?e=1638259200&v=beta&t=HHgzluDlABmDZIxaLP6vrYff35RTOfEhMX6fCbQ8GIM" alt="First Porfolio" max-width="100%" />
             <h2>First Portfolio</h2>
-            <p>My first Portfolio Project</p>
+            <p>My first Portfolio Project with General Assembly.</p>
           </div>
         </div>
         <div className="projects__card__links">
@@ -104,7 +104,7 @@ const IndexPage = () => (
           <div className="projects__card__image">
             <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" alt="PC Builder Project" max-width="100%" />
             <h2>PC Builder</h2>
-            <p>A group project made to sort and compile your personal computer.</p>
+            <p>A group project made to sort and compile your own personal computer.</p>
           </div>
         </div>
         <div className="projects__card__links">
@@ -116,7 +116,7 @@ const IndexPage = () => (
         <div className="projects__card__description">
           <div className="projects__card__image">
             <h2>moviFi</h2>
-            <p>An app created to find any movie out there. Descriptions included. The best way to find movies!</p>
+            <p>An app created to find any movie out there. Detailed descriptions included. The best way to find those movies!</p>
           </div>
         </div>
         <div className="projects__card__links">

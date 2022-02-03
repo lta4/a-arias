@@ -112,6 +112,10 @@ body {
     justify-content: space-between;
 }
 
+.profile__set__description {
+    text-align: center;
+}
+
 .profile__set__image {
     display: flex;
     flex-direction: column;

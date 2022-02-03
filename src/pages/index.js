@@ -65,9 +65,9 @@ const IndexPage = () => (
       </div>
       <div className="profile__set">
         <div className="profile__set__description">
-          <div>
-            <h1>Hello column 2</h1>
-          </div>
+          <h1>Hello column 2</h1>
+            <h2>I am the h2</h2>
+            <p>Did you know I am using git hub lens</p>
         </div>
       </div>
     </section>

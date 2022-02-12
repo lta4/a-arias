@@ -20,7 +20,7 @@
   }
   
   .stars {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -42,7 +42,7 @@
     left: 0;
     width: var(--star-tail-length);
     height: var(--star-tail-height);
-    color: papayawhip;
+    color: red;
     // color: var(--star-color);
     background: linear-gradient(45deg, currentColor, transparent);
     border-radius: 50%;

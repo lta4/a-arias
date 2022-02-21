@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <header className="header">
     <div class="stars">
-    <div class="star"></div>
+      <div class="star"></div>
       <div class="star"></div>
       <div class="star"></div>
       <div class="star"></div>
@@ -71,6 +71,9 @@ const IndexPage = () => (
       </div>
     </header>
     <section className="about">
+      <div>
+        <h1 className="about__title">About</h1>
+      </div>
       <div className="about__card">
         {/* <div className="about__card__svg">
           <svg className="faClock"><FaClock size={100} className="clock"/></svg>

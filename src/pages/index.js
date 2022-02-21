@@ -11,57 +11,57 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <header className="header">
-    <div class="stars">
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
-      <div class="star"></div>
+    <div className="stars">
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
+      <div className="star"></div>
     </div>
       <div className="header__intro">
         <h1>Hi, I'm Andrew Arias.</h1>
@@ -69,8 +69,16 @@ const IndexPage = () => (
           <button className="head__butt">View my work</button>
           {/* <About /> */}
       </div>
+    <nav className="nav__bar">
+      <ul className="nav__inline">
+        <li><a href="#a">Section A</a></li>
+        <li><a href="#b">Section B</a></li>
+        <li><a href="#c">Section C</a></li>
+        <li><a href="#d">Section D</a></li>
+      </ul>
+    </nav>
     </header>
-    <section className="about">
+    <section className="about" id="a">
       <div>
         <h1 className="about__title">About</h1>
       </div>
@@ -106,7 +114,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="profile">
+    <section className="profile" id="b">
       <div className="profile__set">
         <div className="profile__set__image">
           <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="350px" />
@@ -126,9 +134,9 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="projects">
+    <section className="projects" id="c">
       <div className="projects__header">
-        <h1>Project Lord</h1>
+        <h1>Projects</h1>
       </div>
       <div className="projects__card">
         <div className="projects__card__description">
@@ -182,7 +190,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="contact">
+    <section className="contact" id="d">
       <form method="post" action="#" className="contact__form">
         <h2 className="contact__form__header">Contact</h2>
         <input 

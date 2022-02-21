@@ -127,7 +127,9 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="projects">
-      {/* <div className="projects__header">PROJECT LORD</div> */}
+      <div className="projects__header">
+        <h1>Project Lord</h1>
+      </div>
       <div className="projects__card">
         <div className="projects__card__description">
           <div className="projects__card__image">

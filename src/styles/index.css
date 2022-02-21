@@ -39,13 +39,13 @@ body {
 
 /**************** STATEMENT *******************/
 
-.header {
+/* .header {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: red;
-}
+} */
 
 .header__intro {
     background: rgba(100, 100, 100, 0.5);

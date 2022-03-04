@@ -69,8 +69,8 @@ const IndexPage = () => (
           <button className="head__butt">View my work</button>
           {/* <About /> */}
       </div>
-    <nav className="nav__bar">
-      <ul className="nav__inline">
+    <nav className="">
+      <ul className="">
         <li><a href="#a">Section A</a></li>
         <li><a href="#b">Section B</a></li>
         <li><a href="#c">Section C</a></li>

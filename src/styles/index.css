@@ -62,15 +62,32 @@ body {
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 @media (min-height: 300px) {
-    .nav__bar ul {
+    nav ul {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
 }
 
-.nav__inline {
+nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.current {
+    background: red;
+}
+
+/* .nav__inline {
     list-style: none;
     margin-left: -0.5em;
     margin-right: -0.5em;
@@ -86,7 +103,7 @@ body {
 .nav__inline > li:before {
     content: "\200B";
     position: absolute;
-}
+} */
 
 /****************** FEATURES **********************/
 

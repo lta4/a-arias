@@ -69,6 +69,7 @@ const IndexPage = () => (
           <button className="head__butt">View my work</button>
           {/* <About /> */}
       </div>
+    </header>
     <nav className="">
       <ul className="">
         <li><a href="#a">Section A</a></li>
@@ -77,7 +78,8 @@ const IndexPage = () => (
         <li><a href="#d">Section D</a></li>
       </ul>
     </nav>
-    </header>
+    
+    <main>
     <section className="about" id="a">
       <div>
         <h1 className="about__title">About</h1>
@@ -221,6 +223,7 @@ const IndexPage = () => (
         {/* <input type="reset" value="Clear" /> */}
       </form>
     </section>
+    </main>
   </Layout>
 )
 

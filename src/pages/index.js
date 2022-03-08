@@ -80,10 +80,13 @@ const IndexPage = () => (
     </nav>
     
     <main>
+    <div>
+      <h1 className="about__title">About</h1>
+    </div>
     <section className="about" id="a">
-      <div>
+      {/* <div>
         <h1 className="about__title">About</h1>
-      </div>
+      </div> */}
       <div className="about__card">
         {/* <div className="about__card__svg">
           <svg className="faClock"><FaClock size={100} className="clock"/></svg>

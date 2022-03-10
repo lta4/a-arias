@@ -80,10 +80,10 @@ const IndexPage = () => (
     </nav>
     
     <main>
+    <section className="aboutTitle" id="a">
     <div>
-      <h1 className="about__title">About</h1>
+      <h1 className="about">About</h1>
     </div>
-    <section className="about" id="a">
       {/* <div>
         <h1 className="about__title">About</h1>
       </div> */}

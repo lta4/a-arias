@@ -105,17 +105,18 @@ main {
 }
 
 /****************** FEATURES **********************/
-.about__title {
-    display: flex;
+.aboutTitle {
+    display: block;
     flex-direction: row;
     justify-content: center;
+    background-color: lightgreen;
 }
 
 .about {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 1rem;
-    background: lightgreen;
+    /* background: lightgreen; */
 }
 
 .about__card {

@@ -84,9 +84,6 @@ const IndexPage = () => (
     <div>
       <h1 className="about">About</h1>
     </div>
-      {/* <div>
-        <h1 className="about__title">About</h1>
-      </div> */}
       <div className="about__card">
         {/* <div className="about__card__svg">
           <svg className="faClock"><FaClock size={100} className="clock"/></svg>

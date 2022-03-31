@@ -122,9 +122,9 @@ const IndexPage = () => (
           <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="350px" />
           <div className="profile__set__description">
             <h2>I am Andrew Arias</h2>
-            <p>I'm a Front-End Developer in San Diego, CA.
-            I have serious passion for developing, animations, and creating intuitive, dynamic user experiences.</p>
-            <p>Let's make something special!</p>
+            <p>I'm a Full Stack Developer residing in San Diego, CA.
+            I have a serious passion for developing, animations, and creating intuitive/dynamic user experiences.</p>
+            <p>Let's create something special!</p>
           </div>
         </div>
       </div>

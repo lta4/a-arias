@@ -70,26 +70,26 @@ header {
     text-align: center;
 }
 
-nav {
+.sticky {
     white-space: nowrap;
     background:rgba(255, 164, 161, 1);
 }
 
-nav ul {
+.list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 @media (min-height: 300px) {
-    nav ul {
+    .sitcky ul {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
 }
 
-nav ul li a {
+.sticky ul li a {
     display: block;
     padding: 0.5rem 1rem;
     color: white;
@@ -106,19 +106,19 @@ main {
 
 /****************** FEATURES **********************/
 .aboutTitle {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 1rem;
+    /* background: lightgreen; */
+}
+
+.about {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: lightgreen;
     padding: 2rem 1rem;
-}
-
-.about {
-    display: block; 
-    flex-direction: row;
-    justify-content: center;
-    padding: 2rem 1rem;
-    /* background: lightgreen; */
 }
 
 .about__card {
@@ -179,17 +179,18 @@ main {
 
 /****************** PROJECTS ***********************/
 
+.projectsTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 1rem
+}
+
 .projects {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 1rem;
     background: orange;
-}
-
-.projects__header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .projects__card {
@@ -243,6 +244,12 @@ main {
 }
 
 /******************** FORM ******************/
+
+.contactTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .contact {
     min-height: 100vh;

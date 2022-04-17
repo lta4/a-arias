@@ -70,8 +70,8 @@ const IndexPage = () => (
           {/* <About /> */}
       </div>
     </header>
-    <nav className="">
-      <ul className="">
+    <nav className="sticky">
+      <ul className="list">
         <li><a href="#a">Section A</a></li>
         <li><a href="#b">Section B</a></li>
         <li><a href="#c">Section C</a></li>
@@ -80,10 +80,13 @@ const IndexPage = () => (
     </nav>
     
     <main>
-    <section className="aboutTitle" id="a">
     <div>
-      <h1 className="about">About</h1>
+      <h1 className="aboutTitle" id="a">About</h1>
     </div>
+    <section className="about">
+    {/* <div>
+      <h1 className="about">About</h1>
+    </div> */}
       <div className="about__card">
         {/* <div className="about__card__svg">
           <svg className="faClock"><FaClock size={100} className="clock"/></svg>
@@ -136,10 +139,10 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="projects" id="c">
-      <div className="projects__header">
-        <h1>Projects</h1>
-      </div>
+    <div className="projectsTitle" id="c">
+      <h1>Projects</h1>
+    </div>
+    <section className="projects">
       <div className="projects__card">
         <div className="projects__card__description">
           <div className="projects__card__image">
@@ -192,9 +195,12 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="contact" id="d">
+    <div className="contactTitle" id="d">
+      <h1>Contact</h1>
+    </div>
+    <section className="contact">
       <form method="post" action="#" className="contact__form">
-        <h2 className="contact__form__header">Contact</h2>
+        <div className="contact__form"></div>
         <input 
           type="text" 
           name="first name" 

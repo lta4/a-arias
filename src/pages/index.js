@@ -119,7 +119,10 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="profile" id="b">
+    <div className="profileTitle" id="b">
+      <h1>Profile</h1>
+    </div>
+    <section className="profile">
       <div className="profile__set">
         <div className="profile__set__image">
           <img src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" alt="profile of one's self" height="350px" />

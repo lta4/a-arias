@@ -147,6 +147,13 @@ main {
 
 /******************* PROFILE *******************/
 
+.profileTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
 .profile {
     display: flex;
     justify-content: space-evenly;
@@ -249,6 +256,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 2rem 1rem;
 }
 
 .contact {

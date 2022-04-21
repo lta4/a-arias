@@ -2,7 +2,7 @@ import * as React from "react"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 // import About from "../components/about"
-import { FaClock } from "react-icons/fa"
+// import { FaClock } from "react-icons/fa
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -70,6 +70,7 @@ const IndexPage = () => (
           {/* <About /> */}
       </div>
     </header>
+    <script src="https://kit.fontawesome.com/ce6cbf26d1.js" crossorigin="anonymous"></script>
     <nav className="sticky">
       <ul className="list">
         <li><a href="#a">Section A</a></li>

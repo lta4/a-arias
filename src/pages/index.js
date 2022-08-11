@@ -65,7 +65,7 @@ const IndexPage = () => (
     </div>
       <div className="header__intro">
         <h1>Hi, I'm Andrew Arias.</h1>
-          <p>I'm a full-stack developer.</p>
+          <p>I'm a Full-Stack Developer</p>
           <button className="head__butt">View my work</button>
           {/* <About /> */}
       </div>

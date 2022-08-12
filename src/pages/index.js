@@ -178,7 +178,7 @@ const IndexPage = () => (
           <div className="projects__card__image">
             <img src="https://media-exp1.licdn.com/dms/image/C562DAQF441Zue8CM1A/profile-treasury-image-shrink_1280_1280/0/1616004568525?e=1638259200&v=beta&t=ovOfAcbYRiPZBrUQ04XXPsM5HziQBb4ua5y29Rup4MU" alt="PC Builder Project" max-width="100%" />
             <h2>PC Builder</h2>
-            <p>A group project made to sort and compile your own personal computer.</p>
+            <p>A group project made to sort, compile, and create your own personal computer.</p>
           </div>
         </div>
         <div className="projects__card__links">

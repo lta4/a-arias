@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
 
         </div> */}
         <div className="footer__caption">
-          © {new Date().getFullYear()}, Built with love by
+          © {new Date().getFullYear()}, Built with ❤️ by
           {` Andrew Arias`}
         </div>
       </footer>

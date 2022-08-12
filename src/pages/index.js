@@ -140,6 +140,9 @@ const IndexPage = () => (
           <h1>Hello column 2</h1>
             <h2>I am the h2</h2>
             <p>Did you know I am using git hub lens</p>
+            <div class="paper">
+              <img id="slide" src="http://lorempixel.com/output/cats-q-c-100-100-4.jpg" />
+            </div>
         </div>
       </div>
     </section>
